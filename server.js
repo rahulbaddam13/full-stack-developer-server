@@ -5,7 +5,6 @@ import helloController
   from "./controllers/hello-controller.js";
 import userController   from "./controllers/users-controller.js";
 import tuitsController   from "./controllers/tuits-controller.js";
-const DB_CONNECTION_STRING ="mongodb+srv://rahulbaddam13:Imcool@13@cluster0.pprse.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
  || 'mongodb://localhost:27017/webdev';
 mongoose.connect(CONNECTION_STRING);
